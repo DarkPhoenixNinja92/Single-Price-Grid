@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background-color: #E6EFF5;
+}
+
+button {
+    background-color: #C0DF33;
+    color: white;
+    margin-left: 2rem;
+    padding: 1rem 7rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#title {
+    color: #2AB3B1;
+}
+
+#subtitle {
+    color: #C0DF33;
+}
+
+#descr {
+    color: #9AA7BE;
+}
+
+.card-top,
+.card-bottom {
+    background-color: #2AB3B1;
+    margin: 0;
+    padding: 0;
+    width: 88vw;
+    margin-left: 1.07rem;
+}
+
+.card-top {
+    padding-bottom: 1rem;
+}
+
+main {
+    background-color: #fff;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
