@@ -1,6 +1,7 @@
 body {
     color: white;
     background-color: #E6EFF5;
+    font-family: "Karla";
 }
 
 button {
@@ -8,27 +9,25 @@ button {
     color: white;
     margin-left: 2rem;
     padding: 1rem 7rem;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+    font-size: 16px;
 }
 
 #title {
     color: #2AB3B1;
+    letter-spacing: -0.25px;
 }
 
 #subtitle {
     color: #C0DF33;
+    line-height: 24px;
+    letter-spacing: -0.19px;
 }
 
 #descr {
     color: #9AA7BE;
+    width: 74vw;
+    line-height: 30px;
+    letter-spacing: -0.17px;
 }
 
 .card-top,
@@ -36,12 +35,14 @@ button {
     background-color: #2AB3B1;
     margin: 0;
     padding: 0;
-    width: 88vw;
-    margin-left: 1.07rem;
 }
 
 .card-top {
     padding-bottom: 1rem;
+}
+
+.card-bottom {
+    opacity: 84.81%;
 }
 
 main {
@@ -52,4 +53,40 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+}
+
+.monthly {
+    font-size: 32px;
+}
+
+#title,
+#subtitle,
+#descr {
+    margin-left: 1.4rem;
+}
+
+.price-interval {
+    position: relative;
+    bottom: 0.3rem;
+    left: 1rem;
+    opacity: 50%;
+}
+
+.card-title,
+.pricing,
+.access,
+.signup {
+    margin-left: 3rem;
+}
+
+.why-us,
+.text-blurb {
+    margin-left: 2rem;
+}
+
+.text-blurb {
+    width: 60%;
+    opacity: 5%;
+    line-height: 25px;
 }
