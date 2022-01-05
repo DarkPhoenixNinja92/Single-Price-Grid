@@ -90,3 +90,27 @@ main {
     opacity: 55%;
     line-height: 25px;
 }
+
+@media(min-width: 1440px) {
+    #descr {
+        width: 65%;
+    }
+    .card {
+        flex-direction: row;
+    }
+    .card-top,
+    .card-bottom {
+        justify-content: center;
+        align-items: center;
+    }
+    button {
+        font-size: 17px;
+        margin-right: 3rem;
+    }
+    main {
+        width: 50%;
+        position: relative;
+        left: 25vw;
+        top: 25vh;
+    }
+}
