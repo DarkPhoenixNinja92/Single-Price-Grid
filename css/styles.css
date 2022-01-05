@@ -103,9 +103,12 @@ main {
         justify-content: center;
         align-items: center;
     }
+    .card-bottom {
+        padding-bottom: 6rem;
+    }
     button {
         font-size: 17px;
-        margin-right: 3rem;
+        margin-right: 1rem;
     }
     main {
         width: 50%;
